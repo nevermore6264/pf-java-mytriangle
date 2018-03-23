@@ -9,7 +9,7 @@ public class MyTriangle {
         double side2 = scanner.nextDouble();
         System.out.println("Enter side3 : ");
         double side3 = scanner.nextDouble();
-        if (isValid(side1, side2, side3) == true) {
+        if (isValid(side1, side2, side3)) {
             System.out.println("This area : " + calcArea(side1, side2, side3));
         }else{
             System.out.println("Input is not correct ! ");
